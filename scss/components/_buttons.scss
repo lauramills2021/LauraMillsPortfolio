@@ -1,0 +1,25 @@
+.btn {
+    display: inline-block;
+    height: auto;
+    line-height: 35px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    max-width: 110px;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.btn-submit {
+    background-color: $primary-darker;
+    color: $white;
+    padding: 5px 25px;
+    border: none;
+    &:hover {
+        background-color: $primary-dark;
+        cursor: pointer;
+    }
+} 

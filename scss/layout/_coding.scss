@@ -1,0 +1,27 @@
+#coding-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $primary-light;
+    height: 100vh;
+    
+   @include mq('sm') {
+       min-height: 589px;
+   }
+}    
+
+#coding-content {
+    border: solid 3px $primary-darker;
+    img {
+        max-width: 350px;
+        @include mq('sm') {
+            max-width: 450px;
+        }
+        @include mq('md') {
+            max-width: 500px;
+        }
+        @include mq('lg') {
+            max-width: 700px;
+        }
+    }
+}

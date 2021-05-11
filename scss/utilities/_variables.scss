@@ -1,0 +1,21 @@
+// fonts
+$font-stack:'Montserrat', sans-serif;;
+// media quieries breakpoints 
+
+$breakpoints: (
+
+'xs': 767px,
+'sm': 768px,
+'md': 992px,
+'lg': 1260px,
+);
+
+// colors
+$light-grey: #d9d9d9;
+
+$white: #fff;
+
+$primary-font: #3f3f3f;
+$primary-light: #d3d3d3;
+$primary-dark: #7f7f7f;
+$primary-darker: #545454;

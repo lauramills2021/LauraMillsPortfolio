@@ -1,0 +1,27 @@
+#about-me-content {
+    text-align: center;
+    background: $white;
+    width: 100%;
+    max-width: 350px;
+    border: solid 3px $primary-darker;
+    padding-top: 10px;
+    @include mq('sm') {
+        max-width: 500px;
+    }
+    @include mq('md') {
+        max-width: 700px;
+    }
+    @include mq('lg') {
+        max-width: 800px;
+    }
+    img {
+        border: solid 1px $primary-darker;
+        border-radius: 50%;
+    }
+}
+
+
+
+#about-me-text {
+    padding: 15px 40px;
+}

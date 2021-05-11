@@ -1,0 +1,38 @@
+#banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/International-Marble-Chicago.jpg') no-repeat;
+    height: 100vh;
+}
+
+#banner-text {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 25px;
+        margin-top: -20px;
+    }
+}
+
+#scroll-down {
+    padding-top: 345px;
+    @include mq('sm') {
+        padding-top: 450px;
+    }
+    @include mq('md') {
+        padding-top: 500px;
+    }
+    h3 {
+        margin-bottom: 3px;
+        color: $primary-font;
+    }
+    .fas {
+        color: $primary-font;
+    }
+}
+

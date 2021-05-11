@@ -1,0 +1,26 @@
+// ======================================
+//  Partial Imports
+// ======================================
+
+// utilities
+@import 'utilities/variables',
+        'utilities/mixins';
+
+// base styles
+@import 'base/base';
+
+// layout styles
+@import 'layout/navigation',
+        'layout/banner',
+        'layout/project-cards',
+        'layout/contact-form',
+        'layout/about-me',
+        'layout/coding',
+        'layout/scs-scheme';
+
+
+// component styles
+@import 'components/buttons';
+
+
+

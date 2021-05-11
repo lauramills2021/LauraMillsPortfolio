@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-stack;
+    font-size: 1rem;
+    margin: 0;
+    color: $primary-font;
+    @include mq('sm') {
+        margin-left: 160px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-to-top {
+    text-align: center;
+    padding: 10px 0 20px;
+    h3 {
+        margin-top: 3px;
+    }
+    a {
+        color: $primary-font;
+    }
+}
+
+

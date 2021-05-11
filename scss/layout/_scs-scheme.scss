@@ -1,0 +1,42 @@
+#scs-scheme-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/International-Marble-Chicago.jpg') no-repeat;
+    height: auto;
+    @include mq('sm') {
+        height: 100vh;
+    }
+}
+
+#scs-scheme-content {
+    width: 100%;
+    max-width: 400px;
+    margin: 5px;
+    @include mq('sm') {
+        max-width: 500px;
+    }
+    @include mq('md') {
+        max-width: 700px;
+    }
+    @include mq('lg') {
+        max-width: 800px;
+    }
+    h1 {
+        text-align: center;
+        background: $primary-light;
+        border: solid 1px $primary-darker;
+        border-radius: 5px;
+    }
+}
+
+.scs-scheme-text {
+    background: white;
+    border: solid 2px $primary-darker;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    h2 {
+        text-align: center;
+    }
+}
