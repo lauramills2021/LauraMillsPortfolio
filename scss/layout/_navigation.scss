@@ -10,7 +10,6 @@
     @include mq('xs') {
         display: none;
     }
-    
 }
 
 #sidenav a {
@@ -23,7 +22,7 @@
         text-decoration: underline;
         color: $primary-darker;
     }
-  }
+}
 
   #initial-box {
       border-bottom: solid 3px $primary-darker;
@@ -31,7 +30,7 @@
       height: 120px;
       text-align: center;
       font-size: 35px;
-  }
+}
 
 // mobile navigationn
 
