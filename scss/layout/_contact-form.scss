@@ -15,6 +15,9 @@
     @include mq('md') {
         max-width: 400px;
     }
+	@include mq('lg') {
+		max-width: 600px;
+	}
 }
 .form-section h2{
 	font-size: 2.5rem;
