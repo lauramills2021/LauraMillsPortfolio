@@ -11,7 +11,7 @@
     text-align: center;
     padding-top: 100px;
     h1 {
-        font-size: 50px;
+        font-size: 55px;
     }
     h3 {
         font-size: 25px;
@@ -36,3 +36,21 @@
     }
 }
 
+//banner text 
+.typing::after{
+  content:  "";
+  width: 2px;
+  margin-left: 3px;
+  border-right: 6px solid $primary-font;
+  animation: blink 1s infinite ease;
+}
+
+@keyframes blink {
+    0% {
+       opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+
+}

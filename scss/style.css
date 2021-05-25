@@ -127,7 +127,7 @@ a {
 }
 
 #banner-text h1 {
-  font-size: 50px;
+  font-size: 55px;
 }
 
 #banner-text h3 {
@@ -158,6 +158,33 @@ a {
 
 #scroll-down .fas {
   color: #3f3f3f;
+}
+
+.typing::after {
+  content: "";
+  width: 2px;
+  margin-left: 3px;
+  border-right: 6px solid #3f3f3f;
+  -webkit-animation: blink 1s infinite ease;
+          animation: blink 1s infinite ease;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 767px) {
