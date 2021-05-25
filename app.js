@@ -11,5 +11,5 @@ let letter = '';
     currentText = texts[count];
     letter = currentText.slice(0, ++index);
     document.querySelector('.typing').textContent = letter;
-    setTimeout(type, 150);
+    setTimeout(type, 120);
 }());
