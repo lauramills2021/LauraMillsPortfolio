@@ -13,11 +13,12 @@
 }
 
 #sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 0 6px 0;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: slategrey;
     display: block;
+    text-align: center;
     &:hover {
         text-decoration: underline;
         color: $primary-darker;
