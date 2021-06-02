@@ -12,6 +12,18 @@
     }
 }
 
+#initial-box {
+    border-bottom: solid 3px $primary-darker;
+    width: 166px;
+    height: 120px;
+    text-align: center;
+    font-size: 35px;
+    a {
+        color: $primary-font;
+        display: block;
+    }
+}
+
 #sidebar-menu a {
     padding: 20px 0 6px 0;
     text-decoration: none;
@@ -25,18 +37,8 @@
     }
 }
 
-
-
-  #initial-box {
-      border-bottom: solid 3px $primary-darker;
-      width: 166px;
-      height: 120px;
-      text-align: center;
-      font-size: 35px;
-      a {
-          color: $primary-font;
-          display: block;
-      }
+.fa-github {
+    font-size: 32px;
 }
 
 // mobile navigationn
