@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../images/International-Marble-Chicago.jpg') no-repeat;
-    height: auto;
-    @include mq('sm') {
+    background: url('../images/International-Marble-Chicago.jpg')  no-repeat;
+    background-size: cover;
+    @include mq('md') {
         height: 100vh;
     }
 }

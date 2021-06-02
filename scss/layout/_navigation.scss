@@ -12,8 +12,8 @@
     }
 }
 
-#sidenav a {
-    padding: 6px 0 6px 0;
+#sidebar-menu a {
+    padding: 20px 0 6px 0;
     text-decoration: none;
     font-size: 20px;
     color: slategrey;
@@ -25,9 +25,7 @@
     }
 }
 
-#sidebar-menu a {
-    padding-top: 20px;
-}
+
 
   #initial-box {
       border-bottom: solid 3px $primary-darker;
@@ -35,12 +33,15 @@
       height: 120px;
       text-align: center;
       font-size: 35px;
+      a {
+          color: $primary-font;
+          display: block;
+      }
 }
 
 // mobile navigationn
 
 .mobile-menu {
-    
     padding: 20px 10px;
     @include mq('sm') {
         display: none;
@@ -60,6 +61,7 @@
     }
     a {
         color: $primary-font;
+        display: block;
     }
     h3 {
         margin-top: 3px;
