@@ -10,25 +10,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>   
   </head>
   <body>
-    <div id="sidenav">  
+    <nav class="navbar">
         <div id="initial-box">
-            <a href="index.html">
-                <h1>LM</h1>
-             </a>
+          <a href="index.html">
+              <h1>LM</h1>
+          </a>
+      </div>
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
         </div>
-        <div id="sidebar-menu">
-            <a href="about-me.html">About Me</a>
-            <a href="index.html#project-1">My Portfolio</a>
-            <a href="coding.html">Coding Examples</a>
-            <a href="SCS-Scheme.html">SCS Scheme</a>
-            <div id="sidebar-contact">
-                <a href="index.html#contact-form-container">Contact Me</a>
-            </div>
-            <a href="https://github.com/lauramills2021" target="_blank">
-                <i class="fab fa-github"></i>
+
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="about-me.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#project-1" class="nav-link">My Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="coding.html" class="nav-link">Coding Examples</a>
+          </li>
+          <li class="nav-item">
+            <a href="SCS-Scheme.html" class="nav-link">SCS Scheme</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#contact-form-container" class="nav-link">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/lauramills2021" class="nav-link" target="_blank">
+              <i class="fab fa-github"></i>
             </a>
-        </div>
-    </div> <!--end of side nav div-->
+          </li>
+        </ul>
+    </nav>
     <!-- hero banner -->
     <div id="scs-scheme-section">
         <div id="scs-scheme-content">
@@ -58,31 +74,6 @@
             </div>
         </div>
     </div> <!--end of banner section div-->
-    <div class="mobile-menu"> <!--mobile menu div-->
-        <div class="menu-item">
-            <a href="about-me.html">
-                <i class="fas fa-user-alt"></i>
-                <h3>About Me</h3>   
-            </a>
-        </div>
-        <div class="menu-item">
-            <a href="index.html#project-1">
-                <i class="fas fa-folder-open"></i>
-                <h3>Portfolio</h3>   
-            </a>
-        </div>
-        <div class="menu-item">
-            <a href="coding.html">
-                <i class="fas fa-code"></i>
-                <h3>Coding Examples</h3>   
-            </a>
-        </div>
-        <div class="menu-item">
-            <a href="SCS-Scheme.html">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>SCS Scheme</h3>   
-            </a>
-        </div>
-    </div><!--end of mobile menu div-->
+    <script src="app.js"></script>
   </body>
 </html>

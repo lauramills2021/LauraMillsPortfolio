@@ -1,14 +1,16 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: $font-stack;
-    font-size: 1rem;
-    margin: 0;
+    // font-size: 1rem;
+    // margin: 0;
     color: $primary-font;
     @include mq('sm') {
-        margin-left: 170px;
+    margin-left: 170px;
     }
 }
 
