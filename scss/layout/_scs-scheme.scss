@@ -4,7 +4,7 @@
     align-items: center;
     background: url('../images/International-Marble-Chicago.jpg')  no-repeat;
     background-size: cover;
-    @include mq('md') {
+    @include mq('sm') {
         height: 100vh;
     }
 }
@@ -27,6 +27,7 @@
         background: $primary-light;
         border: solid 1px $primary-darker;
         border-radius: 5px;
+        margin-bottom: 10px;
     }
 }
 
