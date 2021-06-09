@@ -6,26 +6,38 @@
     height: 100vh;
 }
 
+#banner-content {
+    margin: auto;
+    text-align: center;
+}
+
 #banner-text {
     width: 100%;
-    text-align: center;
     padding-top: 100px;
     h1 {
-        font-size: 55px;
+        font-size: 30px;
+        @include mq('sm') {
+            font-size: 55px;
+        }
     }
     h3 {
-        font-size: 25px;
-        margin-top: -20px;
+        font-size: 15px;
+        margin-top: 10px;
+        @include mq('sm') {
+            font-size: 25px;
+        }
     }
 }
 
 #scroll-down {
-    padding-top: 345px;
+    padding-top: 200px;
+    vertical-align: bottom;
+    padding-bottom: 20px;
     @include mq('sm') {
-        padding-top: 450px;
+        padding-top: 350px;
     }
     @include mq('md') {
-        padding-top: 500px;
+        padding-top: 400px;
     }
     h3 {
         margin-bottom: 3px;

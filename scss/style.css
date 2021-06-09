@@ -94,6 +94,7 @@ a {
       justify-content: space-around;
   padding: 2px;
   background-color: #545454;
+  border-radius: 10%;
 }
 
 @media (min-width: 768px) {
@@ -139,13 +140,14 @@ a {
 .nav-link {
   text-decoration: none;
   font-size: 20px;
-  color: #545454;
+  color: #7f7f7f;
   position: relative;
   padding: 3px 0;
 }
 
 .nav-link:hover {
   text-decoration: underline;
+  color: #3f3f3f;
 }
 
 .fa-github {
@@ -166,34 +168,52 @@ a {
   height: 100vh;
 }
 
+#banner-content {
+  margin: auto;
+  text-align: center;
+}
+
 #banner-text {
   width: 100%;
-  text-align: center;
   padding-top: 100px;
 }
 
 #banner-text h1 {
-  font-size: 55px;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  #banner-text h1 {
+    font-size: 55px;
+  }
 }
 
 #banner-text h3 {
-  font-size: 25px;
-  margin-top: -20px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  #banner-text h3 {
+    font-size: 25px;
+  }
 }
 
 #scroll-down {
-  padding-top: 345px;
+  padding-top: 200px;
+  vertical-align: bottom;
+  padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
   #scroll-down {
-    padding-top: 450px;
+    padding-top: 350px;
   }
 }
 
 @media (min-width: 992px) {
   #scroll-down {
-    padding-top: 500px;
+    padding-top: 400px;
   }
 }
 
@@ -328,7 +348,11 @@ a {
 }
 
 .project-text {
-  padding: 5px 10px;
+  padding: 20px 10px;
+}
+
+.project-text h4 {
+  margin-top: 5px;
 }
 
 .form-section {

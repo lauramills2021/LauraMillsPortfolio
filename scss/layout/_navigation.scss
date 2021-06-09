@@ -46,6 +46,7 @@
     justify-content: space-around;
     padding: 2px;
     background-color: $primary-darker;
+    border-radius: 10%;
     @include mq('sm') {
         display: none;
     }
@@ -83,13 +84,14 @@
 .nav-link {
     text-decoration: none;
     font-size: 20px;
-    color: $primary-darker;
+    color: $primary-dark;
     position: relative;
     padding: 3px 0;
 } 
 
 .nav-link:hover {
     text-decoration: underline;
+    color: $primary-font;
 }
 
 .fa-github {
