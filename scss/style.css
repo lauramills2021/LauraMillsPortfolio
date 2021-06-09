@@ -452,13 +452,26 @@ textarea {
   padding-top: 10px;
 }
 
+#about-me-section {
+  background: url("../images/International-Marble-Chicago.jpg") no-repeat;
+  background-size: cover;
+  padding: 20px 10px;
+}
+
+@media (min-width: 768px) {
+  #about-me-section {
+    height: 100vh;
+  }
+}
+
 #about-me-content {
   text-align: center;
   background: #fff;
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   border: solid 3px #545454;
   padding-top: 10px;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
@@ -595,6 +608,10 @@ textarea {
 
 .scs-scheme-text h2 {
   text-align: center;
+}
+
+.scs-scheme-text li {
+  list-style-position: inside;
 }
 
 .btn {

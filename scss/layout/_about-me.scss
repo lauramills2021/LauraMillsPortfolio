@@ -1,10 +1,21 @@
+#about-me-section {
+    background: url('../images/International-Marble-Chicago.jpg') no-repeat ;
+    background-size: cover;
+    padding: 20px 10px;
+    @include mq('sm') {
+        height: 100vh;
+    }
+}
+
+
 #about-me-content {
     text-align: center;
     background: $white;
     width: 100%;
-    max-width: 350px;
+    max-width: 300px;
     border: solid 3px $primary-darker;
     padding-top: 10px;
+    margin: auto;
     @include mq('sm') {
         max-width: 500px;
     }
