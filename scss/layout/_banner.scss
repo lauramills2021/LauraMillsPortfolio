@@ -7,13 +7,14 @@
 }
 
 #banner-content {
-    margin: auto;
-    text-align: center;
+    width: 100%;
+    align-content: center;
 }
 
 #banner-text {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
+    text-align: center;
     h1 {
         font-size: 30px;
         @include mq('sm') {
